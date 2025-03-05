@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>行動電話使用意見調查表</title>
+</head>
+<body>
+    <h2>行動電話使用意見調查表</h2>
+
+    <form action="#" method="post">
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">E-Mail：</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="issues">您使用手機時最常碰到哪些問題？</label><br>
+        <textarea id="issues" name="issues" rows="4" cols="50"></textarea><br><br>
+
+        <label for="carriers">您使用過哪家業者的門號？(可複選)</label><br>
+        <select id="carriers" name="carriers" multiple>
+            <option value="chunghwa">中華電信</option>
+            <option value="taiwanmobile">台灣大哥大</option>
+            <option value="farEasTone">遠傳</option>
+            <option value="taiwanstar">台灣之星</option>
+        </select><br><br>
+
+        <button type="submit">提交</button>
+        <button type="reset">重設</button>
+    </form>
+   
+</body>
+</html>
